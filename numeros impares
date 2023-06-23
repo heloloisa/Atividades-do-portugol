@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro numero
+	inteiro aux = 1
+	
+	escreva("informe um número: ")
+	leia(numero)
+
+		enquanto(aux<numero){
+			escreva(aux , "\n")
+			aux = aux + 2
+		}
+	}
+}
